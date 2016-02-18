@@ -16,3 +16,5 @@ source "http://rubygems.org"
 
 # Show method sources
   gem "method_source"
+
+  gem "beats"
