@@ -1,0 +1,23 @@
+Song:
+  Tempo: 105
+  Flow:
+    - Verse:  x4
+    - Chorus: x4
+  Kit:
+    - bass:     ./casio_instruments/bass2.wav
+    - snare:    ./casio_instruments/snare2.wav
+    - hihat:    ./casio_instruments/hh_open.wav
+    - cowbell:  ./casio_instruments/rim.wav
+    - deep:     ./casio_instruments/tom4.wav
+
+Verse:
+  - bass:     X..X...X..X.....
+  - snare:    ....X.......X...
+  - hihat:    ..X...X...X...X.
+
+Chorus:
+  - bass:     X..X...X..X.....
+  - snare:    ....X.......X...
+  - hihat:    XXXXXXXXXXXXX...
+  - cowbell:  ....XX.X..X.X...
+  - deep:     .............X..

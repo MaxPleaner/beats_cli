@@ -1,0 +1,37 @@
+# An example song. To generate a Wave file from this:
+#
+# 1.) Install Beats Drum Machine: http://beatsdrummachine.com/download
+# 2.) Make sure this file is in the same directory as the sample sounds.
+# 3.) From the command line, `cd` to this folder.
+# 4.) Run this command:
+#
+#       beats example_song.txt
+#
+# This will create a file example_song.wav in the current
+# working directory.
+
+Song:
+  Tempo: 120
+  Flow:
+    - Verse:   x2
+    - Chorus:  x4
+    - Verse:   x2
+    - Chorus:  x4
+  Kit:
+    - bass:       bass.wav
+    - snare:      snare.wav
+    - hh_closed:  hh_closed.wav
+    - agogo:      agogo_high.wav
+
+Verse:
+  - bass:       X...X...X...X...
+  - snare:      ..............X.
+  - hh_closed:  X.XXX.XXX.X.X.X.
+  - agogo:      ..............XX
+
+Chorus:
+  - bass:       X...X...XX..X...
+  - snare:      ....X.......X...
+  - hh_closed:  X.XXX.XXX.XX..X.
+  - tom4.wav:   ...........X....
+  - tom2.wav:   ..............X.
